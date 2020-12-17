@@ -14,6 +14,8 @@
 		32700D5B258AD41A00AC0258 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 32700D5A258AD41A00AC0258 /* .gitignore */; };
 		32700D5E258AD42900AC0258 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 32700D5D258AD42900AC0258 /* README.md */; };
 		32700D61258ADDE500AC0258 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32700D60258ADDE500AC0258 /* CardView.swift */; };
+		32700D65258AE8E200AC0258 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32700D64258AE8E200AC0258 /* CardModel.swift */; };
+		32700D68258AE97D00AC0258 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32700D67258AE97D00AC0258 /* CardData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		32700D5A258AD41A00AC0258 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		32700D5D258AD42900AC0258 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		32700D60258ADDE500AC0258 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		32700D64258AE8E200AC0258 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		32700D67258AE97D00AC0258 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				32700D49258AD35500AC0258 /* Learn_by_DoingApp.swift */,
 				32700D4B258AD35500AC0258 /* ContentView.swift */,
 				32700D60258ADDE500AC0258 /* CardView.swift */,
+				32700D64258AE8E200AC0258 /* CardModel.swift */,
+				32700D67258AE97D00AC0258 /* CardData.swift */,
 				32700D4D258AD35500AC0258 /* Assets.xcassets */,
 				32700D52258AD35500AC0258 /* Info.plist */,
 				32700D4F258AD35500AC0258 /* Preview Content */,
@@ -149,7 +155,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32700D68258AE97D00AC0258 /* CardData.swift in Sources */,
 				32700D4C258AD35500AC0258 /* ContentView.swift in Sources */,
+				32700D65258AE8E200AC0258 /* CardModel.swift in Sources */,
 				32700D61258ADDE500AC0258 /* CardView.swift in Sources */,
 				32700D4A258AD35500AC0258 /* Learn_by_DoingApp.swift in Sources */,
 			);
